@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5ac289;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Add this to your style.css file */
+a {
+    text-decoration: none; /* Remove underlines from links */
+    text-align: center;
+    color: #ec0d0d; /* Set text color to white */
+    padding: 10px 15px; /* Add padding for better appearance */
+    margin-right: 20px; /* Add some spacing between links */
+    display: inline-block; /* Make links block elements to apply padding */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+a:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+header {
+    background: url('/images/image.jpg') center/cover no-repeat;
+    color: #000103fb;
+    text-align: right;
+    padding: 220px 0; /* Adjust the padding to control the header height */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #ffcc00; /* Yellow color for section headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.job-details, .degree-details {
+    color: #777;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Add a button style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #252525;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff9900; /* Darker yellow on hover */
+}
